@@ -9,8 +9,8 @@ const Contact = (props) => {
         <div class= "name">
             <h4>{props.name}</h4>
             <div class="status">
-                <div class={`status-${props.online?  'online':'offline'}`}></div>
-                <p class="status-text">{props.online?  'online':'offline'}</p>
+                <div class={props.online? 'status-online':'status-offline'}></div>
+                <p class="status-text">{props.online? 'Online':'Offline'}</p>
             </div>
         </div>
     </div>
@@ -29,10 +29,9 @@ export default Contact;
 //             <h4>{props.name}</h4>
 //             <div class="status">
 //                 <div class={`status-${props.online?  'online':'offline'}`}></div>
-//                 <p class="status-text">{props.online?  'online':'offline'}</p>
+//                 <p class="status-text">{props.online?  'Online':'Offline'}</p>
 //             </div>
 //         </div>
 //     </div>
 //     );
 // }
-
