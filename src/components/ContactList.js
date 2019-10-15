@@ -5,31 +5,31 @@ const list = [
     {
         avatar: "https://randomuser.me/api/portraits/med/men/75.jpg",
         name: "Michael Adams",
-        // online: true
+        online: true
     },
 
     {
         avatar: "https://randomuser.me/api/portraits/women/69.jpg",
         name: "Felecia Schmidt",
-        // online: false
+        online: false
     },
 
     {
         avatar: "https://randomuser.me/api/portraits/men/58.jpg",
         name: "Joshua Powell",
-        // online: true
+        online: true
     },
 
     {
         avatar: "https://randomuser.me/api/portraits/women/59.jpg",
         name: "Sheila Elliott",
-        // online: false
+        online: false
     },
 
     {
         avatar: "https://randomuser.me/api/portraits/men/44.jpg",
         name: "Scott Howard",
-        // online: false
+        online: false
     }
 ];
 
@@ -38,7 +38,7 @@ const ContactList = () => (
         {
         list.map(item => (<Contact
             avatar={item.avatar}
-            // online={item.online}
+            online={item.online}
             name={item.name}
              />))
         }
