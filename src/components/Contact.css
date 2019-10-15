@@ -15,6 +15,10 @@
     height: 48px;
   }
   
+  .Contact:hover{
+    cursor: pointer;
+  }
+  
   /* Name */
   .Contact .name {
     margin: 0 0 0.25rem;
